@@ -1,17 +1,17 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
-  "version": "4.4.0",
-  "description": "CoreUI Free React Admin Template",
-  "homepage": ".",
-  "bugs": {
-    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
-  },
-  "license": "MIT",
-  "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
+    "name": "readersnepal",
+    "version": "4.4.0",
+    "description": "React Clone of Readersnepal",
+    "homepage": ".",
+    "bugs": {
+      "url": "https://github.com/KrishnaMahat/WebUI_ReactJS"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:KrishnaMahat/WebUI_ReactJS.git"
+    },
+    "license": "Readersnepal",
+    "author": "Krishna Mahat (https://github.com/KrishnaMahat)",
   "scripts": {
     "build": "react-scripts build",
     "changelog": "auto-changelog --starting-version 4.4.0 --commit-limit false --hide-credit",
