@@ -16,7 +16,6 @@ import { cilBell, cilEnvelopeOpen, cilList, cilMenu } from '@coreui/icons'
 
 import { AppBreadcrumb } from './index'
 import { AppHeaderDropdown } from './header/index'
-import { logo } from 'src/assets/brand/logo'
 
 const AppHeader = () => {
   const dispatch = useDispatch()
@@ -31,35 +30,7 @@ const AppHeader = () => {
         >
           <CIcon icon={cilMenu} size="lg" />
         </CHeaderToggler>
-        <CHeaderBrand className="mx-auto d-md-none" to="/">
-          <CIcon icon={logo} height={48} alt="Logo" />
-        </CHeaderBrand>
-        <CHeaderNav className="d-none d-md-flex me-auto">
-          {/* <CNavItem>
-            <CNavLink to="/dashboard" component={NavLink}>
-              Home
-            </CNavLink>
-          </CNavItem> */}
-          {/* <CNavItem>
-            <CNavLink href="#">Lok Sewa Aayog</CNavLink>
-          </CNavItem>
-          <CNavItem>
-            <CNavLink href="#">Enotes</CNavLink>
-          </CNavItem>
-          <CNavItem>
-            <CNavLink href="#">Online Exams</CNavLink>
-          </CNavItem>
-          <CNavItem>
-            <CNavLink href="#">Jobs</CNavLink>
-          </CNavItem>
-          <CNavItem>
-            <CNavLink href="#">Biography</CNavLink>
-          </CNavItem>
-          <CNavItem>
-            <CNavLink href="#">Readersclub</CNavLink>
-          </CNavItem> */}
-        </CHeaderNav>
-        <CHeaderNav>
+        <CHeaderNav className="d-flex  ms-auto">
           <CNavItem>
             <CNavLink href="#">
               <CIcon icon={cilBell} size="lg" />
